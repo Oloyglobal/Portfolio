@@ -67,21 +67,21 @@ const GetStartedPage = () => {
       id: 1,
       name: "Adebisi Olufemi",
       company: "TechStart Inc.",
-      quote: "Working with Ismael transformed our online presence. The website he built not only looks stunning but has increased our conversion rate by 35%.",
+      quote: "Working with Olaniyi transformed our online presence. The website he built not only looks stunning but has increased our conversion rate by 35%.",
       role: "Marketing Director"
     },
     {
       id: 2,
       name: "Samuel Johnson",
       company: "GrowthApp",
-      quote: "The mobile app Ismael developed for us has received outstanding user feedback. His attention to detail and focus on user experience made all the difference.",
+      quote: "The mobile app Olaniyi developed for us has received outstanding user feedback. His attention to detail and focus on user experience made all the difference.",
       role: "Product Owner"
     },
     {
       id: 3,
       name: "Fatima Ibrahim",
       company: "Design Forward",
-      quote: "Ismael's UI/UX consulting helped us completely rethink our approach. Our user satisfaction scores have never been higher.",
+      quote: "Olaniyi's UI/UX consulting helped us completely rethink our approach. Our user satisfaction scores have never been higher.",
       role: "CEO"
     }
   ];
@@ -121,7 +121,7 @@ const GetStartedPage = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
-            Get Started with <span className="text-slate-600">Ismael Dayo</span>
+            Get Started with <span className="text-slate-600">Oloyede Olaniyi</span>
           </h1>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
             Let's work together to bring your vision to life. Follow these simple steps to begin our journey.
