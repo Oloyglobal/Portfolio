@@ -100,8 +100,8 @@ const Home = () => {
                     height={500}
                     className="object-cover rounded-lg"
                   />
-                  <div className="absolute -bottom-8 -right-8 bg-slate-700 text-white p-6 rounded-2xl shadow-xl max-w-xs">
-                    <p className="text-lg font-bold">7+ Years of Experience</p>
+                  <div className="sm:absolute -bottom-8 -right-8 bg-slate-700 text-white p-6 rounded-2xl shadow-xl sm:max-w-xs  ">
+                    <p className="text-lg font-bold">4+ Years of Experience</p>
                     <p className="text-sm">Specialized in African tech solutions</p>
                   </div>
                 </div>
@@ -240,29 +240,41 @@ const Home = () => {
                   </div>
                 </div>
 
-                {/* Frontend Development */}
-                <div id="frontend" className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 group">
-                  <div className="flex justify-center mb-6">
-                    <div className="p-4 rounded-lg group-hover:bg-slate-300 group-hover:text-white transition-all duration-300">
-                      <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1745533165/Frontend-Development_sypva9.png" 
-                       width={500} 
-                       height={500}  
-                        alt="Frontend Development" 
-                      />
-                    </div>
-                  </div>
-                  <h3 className="text-xl text-slate-500 mb-4 text-center">Frontend Development</h3>
-                  <p className="text-gray-600 mb-6">
-                    Creating dynamic, responsive user interfaces using React.js and JavaScript, ensuring a smooth and engaging
-                    user experience. I focus on building accessible, performant websites with modern tools like Next.js, Tailwind CSS,
-                    and state management solutions that delight users and meet business goals.
-                  </p>
-                  <div className="flex flex-wrap gap-2 justify-center">
-                    <span className="px-3 py-1 bg-slate-50 text-slate-700 text-sm rounded-full">React.js</span>
-                    <span className="px-3 py-1 bg-slate-50 text-slate-700 text-sm rounded-full">Next.js</span>
-                    <span className="px-3 py-1 bg-slate-50 text-slate-700 text-sm rounded-full">Tailwind CSS</span>
-                  </div>
-                </div>
+                <div
+  id="frontend"
+  className="bg-white rounded-xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 group"
+>
+  <div className="flex justify-center mb-6">
+    <div className="w-32 sm:w-48 md:w-60 p-4 rounded-lg group-hover:bg-slate-300 group-hover:text-white transition-all duration-300">
+      <Image
+        src="https://res.cloudinary.com/dlb3doese/image/upload/v1744112035/AI_wew0re.webp"
+        alt="Frontend Development"
+        width={500}
+        height={500}
+        className="w-full h-auto"
+        unoptimized
+        priority
+      />
+    </div>
+  </div>
+
+  <h3 className="text-lg sm:text-xl text-slate-500 mb-4 text-center">
+    Frontend Development
+  </h3>
+
+  <p className="text-sm sm:text-base text-gray-600 mb-6 text-center sm:text-left">
+    Creating dynamic, responsive user interfaces using React.js and JavaScript, ensuring a smooth and engaging user experience.
+    I focus on building accessible, performant websites with modern tools like Next.js, Tailwind CSS, and state management
+    solutions that delight users and meet business goals.
+  </p>
+
+  <div className="flex flex-wrap gap-2 justify-center">
+    <span className="px-3 py-1 bg-slate-50 text-slate-700 text-xs sm:text-sm rounded-full">React.js</span>
+    <span className="px-3 py-1 bg-slate-50 text-slate-700 text-xs sm:text-sm rounded-full">Next.js</span>
+    <span className="px-3 py-1 bg-slate-50 text-slate-700 text-xs sm:text-sm rounded-full">Tailwind CSS</span>
+  </div>
+</div>
+
 
                 {/* Database Management */}
                 <div id="database" className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 group">
@@ -590,7 +602,7 @@ const Home = () => {
                 <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 relative">
                   <div className="absolute -top-5 left-8 text-5xl text-slate-500">"</div>
                   <p className="text-gray-600 mb-6 relative z-10">
-                  Dr. Emmanuel Adeyemi, Working with Ismael was a game-changer for our healthcare platform. His technical expertise and attention to detail ensured we launched on time and within budget. I highly recommend his services.
+                  Dr. Emmanuel Adeyemi, Working with Olaniyi was a game-changer for our healthcare platform. His technical expertise and attention to detail ensured we launched on time and within budget. I highly recommend his services.
                   </p>
                   <div className="flex items-center text-gray-700">
                     <Image

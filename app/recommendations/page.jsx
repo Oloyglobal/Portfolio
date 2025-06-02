@@ -79,7 +79,7 @@ export default function Recommendations() {
             <header className="bg-slate-800 text-white py-6">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="flex justify-between items-center">
-                        <h1 className="text-2xl font-bold">Ismael Dayo</h1>
+                        <h1 className="text-2xl font-bold">Oloyede Olaniyi</h1>
                         <nav>
                             <ul className="flex space-x-6">
                                 <li><Link href="/portfolio-process" className="hover:text-gray-300 transition">Portfolio</Link></li>

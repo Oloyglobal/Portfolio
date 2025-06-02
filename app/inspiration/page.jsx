@@ -173,7 +173,7 @@ export default function InspirationPage() {
                 <div className="max-w-7xl mx-auto px-6 py-12">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                         <div>
-                            <h3 className="text-white font-bold text-lg mb-4">Ismael Dayo</h3>
+                            <h3 className="text-white font-bold text-lg mb-4">Oloyede Olaniyi</h3>
                             <p className="text-slate-400 mb-4">Creating memorable digital experiences through thoughtful design and innovative solutions.</p>
                             <div className="flex space-x-4">
                                 <a href="#" className="text-slate-400 hover:text-white">
@@ -226,7 +226,7 @@ export default function InspirationPage() {
                         </div>
                     </div>
                     <div className="border-t border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-                        <p className="text-slate-400 text-sm">&copy; {new Date().getFullYear()} Ismael Dayo. All rights reserved.</p>
+                        <p className="text-slate-400 text-sm">&copy; {new Date().getFullYear()} Oloyede Olaniyi. All rights reserved.</p>
                         <div className="mt-4 md:mt-0">
                             <ul className="flex space-x-6 text-sm">
                                 <li><Link href="/privacy-policy" className="text-slate-400 hover:text-white transition-colors">Privacy Policy</Link></li>

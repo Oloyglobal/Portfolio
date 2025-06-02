@@ -31,7 +31,7 @@ const letter = {
 }
 
 export default function Header() {
-  const text1 = "I am Ibrahim the C.E.O O'Loy Global Tech "
+  const text1 = "I am Oloyede Olaniyi the C.E.O O'Loy Global Tech "
   const text2 = ""
   const text3 = " Full-Stack Developer with a passion for crafting "
   const text4 = "innovative solutions and thriving in collaborative team environments."
@@ -40,9 +40,9 @@ export default function Header() {
 
 
   return (
-    <div className=" sm:w-[100vw] text-center w-full sm:pb-[200px]  items-start ">
+    <div className=" w-[40vw] sm:w-[100vw] text-center  sm:pb-[200px]  items-start ">
       <motion.h1
-        className="text-shadow-violet-300 font-extrabold sm:text-start text-center  sm:text-5xl text-xl  "
+        className="text-shadow-violet-300 font-extrabold sm:text-start text-center  sm:text-3xl text  "
         variants={sentence}
         initial="hidden"
         animate="visible"
@@ -81,7 +81,7 @@ export default function Header() {
       </motion.h1>
 
       <motion.h1
-        className="text-white  font-serif sm:text-start text-center  sm:text-xl text-4xl font-bold mt-2"
+        className="text-white  font-serif sm:text-start text-center  sm:text-xl  font-bold mt-2"
         variants={sentence}
         initial="hidden"
         animate="visible"
@@ -94,7 +94,7 @@ export default function Header() {
       </motion.h1>
 
       <motion.h1
-        className="text-white  font-serif sm:text-start text-center  sm:text-xl text-4xl font-bold mt-2"
+        className="text-white  font-serif sm:text-start text-center  sm:text-xl text-xl font-bold mt-2"
         variants={sentence}
         initial="hidden"
         animate="visible"
@@ -107,7 +107,7 @@ export default function Header() {
       </motion.h1>
 
       <motion.h1
-        className="text-white  font-serif sm:text-start text-center  sm:text-xl text-4xl font-bold mt-2"
+        className="text-white  font-serif sm:text-start text-center  sm:text-xl text-xl font-bold mt-2"
         variants={sentence}
         initial="hidden"
         animate="visible"

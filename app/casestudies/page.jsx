@@ -1,11 +1,9 @@
-
-
 import React from 'react';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 
-const CaseStudiesPage = () => {
+const Casestudies = () => {
     const caseStudies = [
         {
             id: 1,
@@ -14,7 +12,7 @@ const CaseStudiesPage = () => {
             description: 'A complete rebranding project including logo design, brand guidelines, and digital presence overhaul.',
             duration: '3 months',
             category: 'Branding',
-            image: '/images/case-studies/techfusion.jpg',
+            image: 'https://res.cloudinary.com/dlb3doese/image/upload/v1747829773/pexels-pavel-danilyuk-6612807_ptt4lg.jpg',
             link: '/casestudies/techfusion'
         },
         {
@@ -24,7 +22,7 @@ const CaseStudiesPage = () => {
             description: 'Comprehensive UX redesign that increased conversion rates by 35% and reduced cart abandonment by 28%.',
             duration: '4 months',
             category: 'UX/UI Design',
-            image: '/images/case-studies/ecommerce.jpg',
+            image: 'https://res.cloudinary.com/dlb3doese/image/upload/v1747302605/pexels-photo-7643855_o6fwit.webp',
             link: '/casestudies/ecommerce'
         },
         {
@@ -34,7 +32,7 @@ const CaseStudiesPage = () => {
             description: 'User-centered app design for a telehealth platform connecting patients with healthcare providers.',
             duration: '6 months',
             category: 'Mobile Design',
-            image: '/images/case-studies/mediconnect.jpg',
+            image: 'https://res.cloudinary.com/dlb3doese/image/upload/v1748356439/pexels-olia-danilevich-4974922_anbkot.jpg',
             link: '/casestudies/mediconnect'
         },
         {
@@ -44,7 +42,7 @@ const CaseStudiesPage = () => {
             description: 'Design and implementation of an immersive virtual event platform during the global pandemic.',
             duration: '5 months',
             category: 'Web Design',
-            image: '/images/case-studies/eventsphere.jpg',
+            image: 'https://res.cloudinary.com/dlb3doese/image/upload/v1747828795/pexels-diva-plavalaguna-6149793_mp8otx.jpg',
             link: '/casestudies/eventsphere'
         },
         {
@@ -54,14 +52,14 @@ const CaseStudiesPage = () => {
             description: 'Comprehensive digital transformation project enhancing customer experience across all digital touchpoints.',
             duration: '12 months',
             category: 'Digital Strategy',
-            image: '/images/case-studies/capital-trust.jpg',
+            image: 'https://res.cloudinary.com/dlb3doese/image/upload/v1747836904/pexels-mart-production-7709192_ixqq4o.jpg',
             link: '/casestudies/capital-trust'
         }
     ];
 
     return (
         <div className="min-h-screen bg-slate-50">
-            <Navbar />
+          
             <main className="container mx-auto px-4 py-12">
                 <div className="mb-16 text-center">
                     <h1 className="text-4xl font-bold text-slate-800 mb-4">Case Studies</h1>
@@ -74,11 +72,13 @@ const CaseStudiesPage = () => {
                     {caseStudies.map((caseStudy) => (
                         <div key={caseStudy.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                             <div className="md:flex">
-                                <div className="md:w-2/5 bg-slate-200">
-                                    <div className="h-64 md:h-full w-full flex items-center justify-center text-slate-400">
-                                        {/* Image placeholder */}
-                                        <span>Case Study Image</span>
-                                    </div>
+                                <div className="md:w-2/5">
+                                    <img
+                                        src={caseStudy.image}
+                                        alt={caseStudy.title}
+                                        className="h-64 md:h-[500px] w-full object-cover"
+                                        loading="lazy"
+                                    />
                                 </div>
                                 <div className="md:w-3/5 p-8">
                                     <div className="uppercase tracking-wide text-sm text-slate-500 font-semibold mb-1">{caseStudy.category}</div>
@@ -112,4 +112,4 @@ const CaseStudiesPage = () => {
     );
 };
 
-export default CaseStudiesPage;
+export default Casestudies;

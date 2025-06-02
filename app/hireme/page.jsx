@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Link from 'next/link';
-export default function HireMePage() {
+export default function hireme() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -43,7 +43,7 @@ export default function HireMePage() {
         <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-12">
-                    <h1 className="text-4xl font-extrabold text-slate-800 mb-4">Work with Ismael Dayo</h1>
+                    <h1 className="text-4xl font-extrabold text-slate-800 mb-4">Work with Oloyede Olaniyi</h1>
                     <p className="text-xl text-slate-600 max-w-2xl mx-auto">
                         I'm available for freelance projects, collaborations, and full-time opportunities.
                         Let's create something amazing together.
@@ -229,94 +229,12 @@ export default function HireMePage() {
                 </div>
             </div>
 
-            {/* Footer component will be imported here */}
-            <Footer />
+            
         </div>
     );
 }
 
-// Footer component that will be used across all pages
-function Footer() {
-    return (
-        <footer className="bg-slate-800 text-slate-200 mt-16">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-                    <div className="col-span-1 md:col-span-2">
-                        <h3 className="text-xl font-bold mb-4">Ismael Dayo</h3>
-                        <p className="mb-4 text-slate-300">
-                            Creating memorable experiences through design, development, and photography.
-                        </p>
-                        <div className="flex space-x-4">
-                            <a href="#" className="text-slate-300 hover:text-white transition">
-                                <span className="sr-only">Twitter</span>
-                                {/* Social icon would go here */}
-                            </a>
-                            <a href="#" className="text-slate-300 hover:text-white transition">
-                                <span className="sr-only">Instagram</span>
-                                {/* Social icon would go here */}
-                            </a>
-                            <a href="#" className="text-slate-300 hover:text-white transition">
-                                <span className="sr-only">LinkedIn</span>
-                                {/* Social icon would go here */}
-                            </a>
-                            <a href="#" className="text-slate-300 hover:text-white transition">
-                                <span className="sr-only">GitHub</span>
-                                {/* Social icon would go here */}
-                            </a>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-                        <ul className="space-y-2">
-                            <li>
-                                <Link href="/" className="text-slate-300 hover:text-white transition">Home</Link>
-                            </li>
-                            <li>
-                                <Link href="/portfolio-process" className="text-slate-300 hover:text-white transition">Portfolio</Link>
-                            </li>
-                            <li>
-                                <Link href="/photography" className="text-slate-300 hover:text-white transition">Photography</Link>
-                            </li>
-                            <li>
-                                <Link href="/blog-detail" className="text-slate-300 hover:text-white transition">Blog</Link>
-                            </li>
-                            <li>
-                                <Link href="/hireme" className="text-slate-300 hover:text-white transition">Hire Me</Link>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3 className="text-lg font-semibold mb-4">Contact</h3>
-                        <ul className="space-y-2">
-                            <li className="flex items-start">
-                                <span className="text-slate-300 mr-2">Email:</span>
-                                <a href="mailto:contact@ismaeldayo.com" className="text-slate-300 hover:text-white transition">
-                                    contact@ismaeldayo.com
-                                </a>
-                            </li>
-                            <li className="flex items-start">
-                                <span className="text-slate-300 mr-2">Phone:</span>
-                                <a href="tel:+1234567890" className="text-slate-300 hover:text-white transition">
-                                    +1 (234) 567-890
-                                </a>
-                            </li>
-                            <li className="flex items-start">
-                                <span className="text-slate-300 mr-2">Location:</span>
-                                <span className="text-slate-300">San Francisco, CA</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="mt-12 pt-8 border-t border-slate-700 text-center text-slate-400">
-                    <p>&copy; {new Date().getFullYear()} Ismael Dayo. All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
-    );
-}
+    
 
 
 

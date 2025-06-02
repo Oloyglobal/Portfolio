@@ -43,12 +43,12 @@ const EducationSection = () => {
             degree: "Master of Science in Computer Science",
             institution: "Stanford University",
             duration: "2018 - 2020",
-            description: "Specialized in Human-Computer Interaction and Machine Learning. Graduated with distinction and received the Outstanding Graduate Student Award.",
+            description: "Specialized in Human-Computer Interaction and Machine Learning. .",
             courses: ["Advanced Algorithm Design", "Machine Learning", "Human-Computer Interaction", "Advanced Web Technologies"]
         },
 
         {
-            degree: "Bachelor of Science in Software Engineering",
+            degree: "Bachelor of ARTS History And Interntional Studties",
             institution: "Massachusetts Institute of Technology",
             duration: "2014 - 2018",
             description: "Graduated summa cum laude. Active member of the Programming Club and AI Research Group.",
@@ -102,12 +102,7 @@ const EducationSection = () => {
 // Certifications Section
 const CertificationsSection = () => {
     const certifications = [
-        {
-            name: "AWS Certified Solutions Architect",
-            issuer: "Amazon Web Services",
-            date: "August 2023",
-            icon: "🏆"
-        },
+     
         {
             name: "Google Professional Cloud Developer",
             issuer: "Google Cloud",
@@ -153,24 +148,12 @@ const ProjectsSection = () => {
         {
             title: "E-commerce Platform",
             role: "Lead Developer",
-            duration: "2022 - 2023",
+            duration: "2022 - 2025",
             description: "Designed and developed a full-stack e-commerce platform using React, Node.js, and MongoDB. Implemented secure payment processing, inventory management, and analytics dashboard.",
             technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API", "AWS"]
         },
-        {
-            title: "Health Tracking Mobile App",
-            role: "Full Stack Developer",
-            duration: "2021",
-            description: "Built a cross-platform mobile application for health tracking using React Native. Integrated with wearable device APIs and implemented real-time data visualization.",
-            technologies: ["React Native", "Firebase", "GraphQL", "Chart.js", "OAuth 2.0"]
-        },
-        {
-            title: "Enterprise Resource Planning System",
-            role: "Backend Developer",
-            duration: "2020",
-            description: "Contributed to the development of a large-scale ERP system for a manufacturing client. Built RESTful APIs and implemented business logic for inventory and production management modules.",
-            technologies: ["Node.js", "Express", "PostgreSQL", "Redis", "Docker", "Jenkins"]
-        }
+      
+     
     ];
 
     return (
@@ -232,17 +215,17 @@ const ResumePage = () => {
 
 
                 <div className="container mx-auto px-6 text-center">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-6">Ismael Dayo</h1>
+                    <h1 className="text-4xl md:text-6xl font-bold mb-6">Oloyede Olaniyi</h1>
                     <p className="text-2xl text-gray-300 max-w-3xl mx-auto mb-8">Full Stack Developer & Software Engineer
                     </p>
 
-                    <div className="flex justify-center space-x-6 mb-10">
+                    <div className="sm:flex gap-3 justify-center space-x-6 mb-10">
                         <a href="#contact" className="flex items-center text-blue-400 hover:text-blue-300">
-                            <Mail size={20} className="mr-2" /> ismaheel4real2008@gmail.com
+                            <Mail size={20} className="mr-2" /> oloyedeolaniyi22@gmail.com
                         </a>
 
-                        <a href="#contact" className="flex items-center text-blue-400 hover:text-blue-300">
-                            <Phone size={20} className="mr-2" /> +234 (80) 3215 -9449
+                        <a href="#contact" className="flex  sm:pt-0 pt-3 items-center text-blue-400 hover:text-blue-300">
+                            <Phone size={20} className="mr-2" /> +234 (81) 4598 -7036
                         </a>
                     </div>
 
@@ -265,14 +248,14 @@ const ResumePage = () => {
             {/* Experience */}
 
             <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
-                <h2 className="text-3xl text-slate-400 font-bold mb-8">Professional Experience</h2>
+                <h2 className="sm:text-3xl text-2xl  text-slate-400 font-bold mb-8">Professional Experience</h2>
 
                 <div className="space-y-12">
                     <div className="border-l-4 border-blue-600 pl-6 relative">
                         <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-2 top-0"></div>
                         <div className="mb-4">
                             <h3 className="text-2xl text-slate-300  font-bold">Senior Software Engineer</h3>
-                            <div className="flex items-center text-gray-600 mb-2">
+                            <div className="sm:flex items-center text-gray-600 mb-2">
                                 <Briefcase size={16} className="mr-2" />
                                 <span className="font-medium">TechCorp Solutions</span>
                                 <span className="mx-2">•</span>
@@ -292,7 +275,7 @@ const ResumePage = () => {
                         <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-2 top-0"></div>
                         <div className="mb-4">
                             <h3 className="text-2xl text-slate-400 font-bold">Full Stack Developer</h3>
-                            <div className="flex items-center text-gray-600 mb-2">
+                            <div className="sm:flex items-center text-gray-600 mb-2">
                                 <Briefcase size={16} className="mr-2" />
                                 <span className="font-medium">WebDev Innovations</span>
                                 <span className="mx-2">•</span>
@@ -312,7 +295,7 @@ const ResumePage = () => {
                         <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-2 top-0"></div>
                         <div className="mb-4">
                             <h3 className="text-2xl text-slate-400 font-bold">Junior Web Developer</h3>
-                            <div className="flex items-center text-gray-600 mb-2">
+                            <div className="sm:flex items-center text-gray-600 mb-2">
                                 <Briefcase size={16} className="mr-2" />
                                 <span className="font-medium">Digital Solutions Inc.</span>
                                 <span className="mx-2">•</span>
@@ -333,7 +316,7 @@ const ResumePage = () => {
             {/* Education */}
 
             <div className="bg-white rounded-lg shadow-lg p-8">
-                <h2 className="text-3xl text-slate-400 font-bold mb-8">Education & Certifications</h2>
+                <h2 className="sm:text-3xl text-2xl text-slate-400 font-bold mb-8">Education & Certifications</h2>
 
                 <div className="space-y-10">
                     <div className="grid md:grid-cols-3 gap-8">
@@ -343,28 +326,15 @@ const ResumePage = () => {
                                 <h3 className="text-xl text-slate-400 font-bold">Education</h3>
                             </div>
                         </div>
-                        <div className="col-span-3 md:col-span-2 space-y-6">
+                       
                             <div>
-                                <h4 className="text-lg text-slate-300 font-semibold">Master of Engineering in System Engineering</h4>
-                                <p className="text-gray-600">University of Lagos | 2014 - 2016</p>
-                                <p className="mt-2 text-gray-700">
-                                    Specialized in Software Engineering with a focus on distributed systems and cloud computing. Graduated with honors.
-                                </p>
-                            </div>
-                            <div>
-                                <h4 className="text-lg text-slate-300 font-semibold">Bachelor of Computer Engineering in Information Technology</h4>
-                                <p className="text-gray-600">Obafemi Awolowo University | 2010 - 2013</p>
+                                <h4 className="text-lg text-slate-400 font-bold">Bachelor of History And International Studies</h4>
+                                <p className="text-gray-600">Adekunle Ajasin Univerty | 2015 - 2019</p>
                                 <p className="mt-2 text-gray-700">
                                     Core curriculum included data structures, algorithms, database systems, and web development. Completed capstone project on building scalable web applications.
                                 </p>
                             </div>
-                            <div>
-                                <h4 className="text-lg text-slate-300 font-semibold">National Diploma in Electrical Electronics Engineering </h4>
-                                <p className="text-gray-600">Federal Polytechic, Ado-Ekiti | 2006 - 2008</p>
-                                <p className="mt-2 text-gray-700">
-                                    Core curriculum included digital electronics, circuit analysis, and microcontroller programming. Participated in various engineering projects and workshops.
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -395,7 +365,7 @@ const ResumePage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            
 
 
 
@@ -721,12 +691,12 @@ const ResumePage = () => {
                             <div className="p-6 text-center border-b">
                                 <div className="w-24 h-24 rounded-full bg-blue-300 mx-auto mb-4 flex items-center justify-center overflow-hidden">
                                     <img
-                                        src="https://res.cloudinary.com/dtbforfvb/image/upload/v1743313868/Dayo_a2c05m.jpg"
+                                        src="https://res.cloudinary.com/dlb3doese/image/upload/v1748260754/WhatsApp_Image_2025-05-12_at_7.30.48_AM_sjkcqg.jpg"
                                         alt="Profile"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
-                                <h2 className="text-xl text-slate-400 font-bold">Ismael Dayo</h2>
+                                <h2 className="text-xl text-slate-400 font-bold">Oloyede Olaniyi</h2>
                                 <p className="text-gray-600">Senior Software Engineer</p>
                                 <div className="mt-4 flex justify-center space-x-3">
 
@@ -737,21 +707,21 @@ const ResumePage = () => {
                                     <Mail className="text-gray-400 mt-1" size={18} />
                                     <div>
                                         <p className="text-sm text-gray-500">Email</p>
-                                        <p className="text-gray-700">ismaiheel4real200@gmail.com</p>
+                                        <p className="text-gray-700">oloyedeolaniyi22@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="mb-4 flex items-start gap-3">
                                     <Phone className="text-gray-400 mt-1" size={18} />
                                     <div>
                                         <p className="text-sm text-gray-500">Phone</p>
-                                        <p className="text-gray-700">+234 (80)- 3215 - 9449</p>
+                                        <p className="text-gray-700">+234 (81)- 4598 - 7036</p>
                                     </div>
                                 </div>
                                 <div className="mb-4 flex items-start gap-3">
 
                                     <div>
                                         <p className="text-sm text-gray-500">Location</p>
-                                        <p className="text-gray-700">123 University of Ibadaan, San Francisco, CA; Ibadan Oyo State</p>
+                                        <p className="text-gray-700">123 University of Ibadaan, Ibadan Oyo State</p>
                                     </div>
                                 </div>
                                 <div className="mb-4 flex items-start gap-3">
@@ -840,7 +810,7 @@ const ResumePage = () => {
                                 </div>
                             </div>
 
-                            <div className="max-w-7xl mx-auto p-6">
+                            <div className=" max-w-7xl  mx-auto p-6">
                                 <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
                                     <div className="h-52 bg-gray-300">
                                         <img
@@ -1149,30 +1119,30 @@ const ResumePage = () => {
 
                     {/* Navigation Tabs */}
 
-                    <div className="bg-white rounded-lg mb-6 shadow-md">
+                    <div className="bg-white  rounded-lg mb-6 shadow-md">
                         <div className="flex border-b border-gray-200">
-                            <button className='px-4 py-2 text-sm font-medium border-b-2 border-blue-500 text-blue-600 text-gray-600 hover:text-blue-500'
+                            <button className='px-4 py-2 text-sm font-medium border-b-2 border-blue-500 text-gray-600 hover:text-blue-500'
 
                                 onClick={() => setActiveTab('overview')}
                             >
                                 Overview
                             </button>
 
-                            <button className='px-4 py-2 text-sm font-medium border-b-2 border-blue-500 text-blue-600 text-gray-600 hover:text-blue-500'
+                            <button className='px-4 py-2 text-sm font-medium border-b-2 border-blue-500 text-gray-600 hover:text-blue-500'
 
                                 onClick={() => setActiveTab('investments')}
                             >
                                 Investments
                             </button>
 
-                            <button className='px-4 py-2 text-sm font-medium border-b-2 border-blue-500 text-blue-600 text-gray-600 hover:text-blue-500'
+                            <button className='px-4 py-2 text-sm font-medium border-b-2 border-blue-500   hover:text-blue-500'
 
                                 onClick={() => setActiveTab('budget')}
                             >
                                 Budget
                             </button>
 
-                            <button className='px-4 py-2 text-sm font-medium border-b-2 border-blue-500 text-blue-600 text-gray-600 hover:text-blue-500'
+                            <button className='px-4 py-2 text-sm font-medium border-b-2 border-blue-500  text-gray-600 hover:text-blue-500'
 
                                 onClick={() => setActiveTab('reports')}
                             >
@@ -1306,7 +1276,7 @@ const ResumePage = () => {
 
 
                         {/* Featured Card*/}
-                        <div className="max-w-4xl mx-auto p-6">
+                        <div className="sm:max-w-4xl w-full mx-auto p-6">
                             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
 
                                 {/* Image Section */}

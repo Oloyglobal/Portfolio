@@ -339,58 +339,7 @@ const FAQs = () => {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <h3 className="text-lg font-medium mb-4">About Us</h3>
-              <p className="text-gray-300 text-sm">
-                We're a digital agency focused on delivering exceptional web solutions that help businesses grow and succeed online.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-medium mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-sm">
-                <li><Link href="/services" className="text-gray-300 hover:text-white">Services</Link></li>
-                <li><Link href="/portfolio" className="text-gray-300 hover:text-white">Portfolio</Link></li>
-                <li><Link href="/about" className="text-gray-300 hover:text-white">About Us</Link></li>
-                <li><Link href="/blog" className="text-gray-300 hover:text-white">Blog</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-medium mb-4">Contact</h3>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li className="flex items-center">
-                  <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1746477933/Email_av0u5q.jpg" width={16} height={16} alt="Email" className="mr-2" />
-                  ismaiheel4real2008@gmail.com
-                </li>
-                <li className="flex items-center">
-                  <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1746478149/Phone_txf1mz.jpg" width={16} height={16} alt="Phone" className="mr-2" />
-                  +234 (80) 3215 9449
-                </li>
-                <li className="flex items-center">
-                  <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1746478286/location-location-pin-location-icon-transparent-free_pimpi0.webp" width={16} height={16} alt="Location" className="mr-2" />
-                 123, University of Ibadan, Campus
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-medium mb-4">Follow Us</h3>
-              <div className="flex space-x-4">
-                {['facebook', 'twitter', 'instagram', 'linkedin'].map((social) => (
-                  <a key={social} href={`#${social}`} className="hover:text-slate-400">
-                    <Image src="/api/placeholder/24/24" width={24} height={24} alt={social} />
-                  </a>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-gray-700 mt-8 pt-8 text-sm text-gray-400 text-center">
-            <p>&copy; {new Date().getFullYear()} Digital Agency. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+     
     </main>
   );
 }
