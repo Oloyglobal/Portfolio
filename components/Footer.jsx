@@ -27,7 +27,7 @@ const Footer = () => {
               <a href="https://www.tiktok.com/@olaniyi9128?_t=ZM-8xuQJbfPdZ8&_r=1" target="_blank" rel="noopener noreferrer">
                 <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1747339945/tik-tok-logo-6fh_tkirvk.png" alt="TikTok" width={24} height={24} />
               </a>
-              <a href="https://web.facebook.com/salaudeenismaiheel.dayo" target="_blank" rel="noopener noreferrer">
+              <a href="https://web.facebook.com" target="_blank" rel="noopener noreferrer">
                 <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1747340159/facebook-logo-facebook-icon-transparent-free-png_sge8n4.webp" alt="Facebook" width={24} height={24} />
               </a>
             </div>

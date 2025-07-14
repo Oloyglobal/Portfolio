@@ -17,7 +17,7 @@ import Link from 'next/link';
                             With expertise in web and mobile development, I transform ideas into impactful digital experiences.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="https://github.com/" aria-label="GitHub" className="text-gray-400 hover:text-white transition">
+                            <a href="https://github.com/Oloyglobal/Portfolio" aria-label="GitHub" className="text-gray-400 hover:text-white transition">
                                 GitHub
                             </a>
                             <a href="www.linkedin.com/in/oloyede-olaniyi-805342372" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition">
@@ -77,7 +77,7 @@ import Link from 'next/link';
                             </li>
                             <li className="flex items-start">
                                 <span className="mr-2">📧</span>
-                                <a href="mailto:contact@ismaeldayo.com" className="text-gray-400 hover:text-white transition">
+                                <a href=" Oloyedeolaniyi22@gmail.com" className="text-gray-400 hover:text-white transition">
                                     Oloyedeolaniyi22@gmail.com
                                 </a>
                             </li>
