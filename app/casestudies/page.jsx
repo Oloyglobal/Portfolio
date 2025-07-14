@@ -13,7 +13,7 @@ const Casestudies = () => {
             duration: '3 months',
             category: 'Branding',
             image: 'https://res.cloudinary.com/dlb3doese/image/upload/v1747829773/pexels-pavel-danilyuk-6612807_ptt4lg.jpg',
-            link: '/casestudies/techfusion'
+            link: 'www.linkedin.com/in/oloyede-olaniyi-805342372'
         },
         {
             id: 2,
@@ -43,7 +43,7 @@ const Casestudies = () => {
             duration: '5 months',
             category: 'Web Design',
             image: 'https://res.cloudinary.com/dlb3doese/image/upload/v1747828795/pexels-diva-plavalaguna-6149793_mp8otx.jpg',
-            link: '/casestudies/eventsphere'
+            link: 'www.linkedin.com/in/oloyede-olaniyi-805342372'
         },
         {
             id: 5,
@@ -101,7 +101,7 @@ const Casestudies = () => {
                         Let's discuss how my design expertise can help your brand or product achieve its goals.
                     </p>
                     <div className="text-center">
-                        <Link href="/hireme" className="inline-block px-8 py-3 bg-slate-700 hover:bg-slate-800 text-white rounded-md transition-colors duration-300">
+                        <Link href="www.linkedin.com/in/oloyede-olaniyi-805342372" className="inline-block px-8 py-3 bg-slate-700 hover:bg-slate-800 text-white rounded-md transition-colors duration-300">
                             Get in Touch
                         </Link>
                     </div>

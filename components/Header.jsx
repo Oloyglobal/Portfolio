@@ -33,7 +33,7 @@ const letter = {
 export default function Header() {
   const text1 = "I am Oloyede Olaniyi the C.E.O O'Loy Global Tech "
   const text2 = ""
-  const text3 = " Full-Stack Developer with a passion for crafting "
+  const text3 = "Full-Stack Developer with a passion for crafting "
   const text4 = "innovative solutions and thriving in collaborative team environments."
     const text5 = "I am a passionate developer with a strong focus on"
     const text6 = "creating exceptional user experiences and delivering high-quality code."

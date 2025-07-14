@@ -15,16 +15,16 @@ const Footer = () => {
               Full-Stack Developer with a passion for crafting innovative solutions and thriving in collaborative team environments.
             </p>
             <div className="flex space-x-4">
-              <a href="https://x.com/Salaudeenismai7" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/Olaniyi223" target="_blank" rel="noopener noreferrer">
                 <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1747340524/twitter3_jc1mhg.jpg" alt="Twitter" width={24} height={24} />
               </a>
-              <a href="https://www.linkedin.com/in/ismaiheel-dayo-00180b1a1/" target="_blank" rel="noopener noreferrer">
+              <a href="www.linkedin.com/in/oloyede-olaniyi-805342372" target="_blank" rel="noopener noreferrer">
                 <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1745329839/image-linkedin-icon_mdnui4.webp" alt="LinkedIn" width={24} height={24} />
               </a>
-              <a href="https://github.com/Dayocodez" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Oloyglobal" target="_blank" rel="noopener noreferrer">
                 <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1745329761/images-github-icon_fzhf7k.png" alt="GitHub" width={24} height={24} />
               </a>
-              <a href="https://www.tiktok.com/@dayocodez" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.tiktok.com/@olaniyi9128?_t=ZM-8xuQJbfPdZ8&_r=1" target="_blank" rel="noopener noreferrer">
                 <Image src="https://res.cloudinary.com/dtbforfvb/image/upload/v1747339945/tik-tok-logo-6fh_tkirvk.png" alt="TikTok" width={24} height={24} />
               </a>
               <a href="https://web.facebook.com/salaudeenismaiheel.dayo" target="_blank" rel="noopener noreferrer">
