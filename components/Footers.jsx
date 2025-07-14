@@ -20,7 +20,7 @@ import Link from 'next/link';
                             <a href="https://github.com/" aria-label="GitHub" className="text-gray-400 hover:text-white transition">
                                 GitHub
                             </a>
-                            <a href="https://linkedin.com/" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition">
+                            <a href="www.linkedin.com/in/oloyede-olaniyi-805342372" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition">
                                 LinkedIn
                             </a>
                             <a href="https://x.com/Olaniyi223" aria-label="Twitter" className="text-gray-400 hover:text-white transition">
